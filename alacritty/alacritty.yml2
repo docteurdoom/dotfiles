@@ -1,0 +1,46 @@
+window:
+  padding:
+    x: 2
+    y: 3
+  dynamic_padding: false
+
+  scrolling:
+    history: 10000
+    multiplier: 3
+  font:
+    size: 9.2
+    offset:
+      x: 0
+      y: 0
+    glyph_offset:
+      x: 0
+      y: 0
+ 
+colors:
+  primary:
+    background: '0x000000'
+    foreground: '0xffffff'
+    cursor:
+    text: '0xffffff'
+    cursor: '0x4d4d4c'
+    normal:
+    black: '0x000000'
+    red: '0xff5454'
+    green: '0x54ff54'
+    yellow: '0xffff54'
+    blue: '0x5454ff'
+    magenta: '0xff54ff'
+    cyan: '0x54ffff'
+    white: '0xdddddd'
+  bright:
+    black: '0xdddddd'
+    red: '0xff0000'
+    green: '0x54ff54'
+    yellow: '0xffff00'
+    blue: '0x0000ff'
+    magenta: '0xff00ff'
+    cyan: '0x00ffff'
+    white: '0xffffff'
+
+key_bindings:
+ - { key: Back, mods: Control, chars: "\x17" }

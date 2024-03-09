@@ -1,0 +1,10 @@
+super + o ; {w,p,t,q,k}
+	{firefox,pimp,telegram-desktop,qbittorrent,keepassxc}
+super + c
+	cd /home/user/scripts && ./layoutswitcher.sh
+super + p
+	cd /home/user/scripts && ./screenshoot.sh
+super + F2
+	/home/user/scripts/volume-changer.sh -p
+super + F1
+	/home/user/scripts/volume-changer.sh -m
